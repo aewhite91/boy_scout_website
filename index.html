@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <h1>My Website</h1>
+    <p>A simple static site hosted on GitHub Pages</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        This is a basic website built with plain HTML and CSS.
+        It’s hosted for free using GitHub Pages.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li>Project One — short description</li>
+        <li>Project Two — short description</li>
+        <li>Project Three — short description</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Links</h2>
+      <p>
+        <a href="https://github.com/">GitHub</a> |
+        <a href="mailto:you@example.com">Email</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> My Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
