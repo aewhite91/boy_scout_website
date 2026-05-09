@@ -1,53 +1,53 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Site</title>
-  <link rel="stylesheet" href="design.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boy Scout Troop</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
   <header class="hero">
-    <h1>My Website</h1>
-    <p>A simple static site hosted on GitHub Pages</p>
+    <h1>Welcome to Our Boy Scout Troop</h1>
+    <p>Learning leadership, teamwork, and outdoor skills through adventure.</p>
   </header>
 
   <main class="container">
 
     <section class="card">
-      <h2>About</h2>
+      <h2>About Our Troop</h2>
+
+      <img src="images/troop-photo.jpg"
+           alt="Boy Scout Troop"
+           class="main-image">
+
       <p>
-        This is a basic website built with plain HTML and CSS.
-        It’s hosted for free using GitHub Pages.
+        Our Boy Scout troop helps young scouts develop leadership skills,
+        confidence, responsibility, and teamwork through outdoor activities
+        and community involvement. Scouts participate in camping trips,
+        service projects, outdoor adventures, and skill-building activities
+        throughout the year.
       </p>
-    </section>
 
-    <section class="card">
-      <h2>Projects</h2>
-      <ul>
-        <li>Project One — short description</li>
-        <li>Project Two — short description</li>
-        <li>Project Three — short description</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Links</h2>
       <p>
-        <a href="https://github.com/">GitHub</a> |
-        <a href="mailto:you@example.com">Email</a>
+        Learn more about scouting at the
+        <a href="https://www.scouting.org/" target="_blank">
+          Boy Scouts of America website
+        </a>.
+      </p>
+
+      <p>
+        <a href="activities.html">Learn about our troop activities →</a>
       </p>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> My Website</p>
+    <p>Boy Scout Troop Website Project</p>
   </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
